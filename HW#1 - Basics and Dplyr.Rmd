@@ -1,0 +1,63 @@
+---
+title: "Working with Dplyr"
+output: html_notebook
+---
+
+<font color = 'purple'> This is the first assignment of R programming which will focus on basics of R, and using dplyr. 
+
+
+\newline You shound not `for loop` in your code snippets unless mentioned specifically.
+
+
+**Question 1**: Create a function, and name it `standardize`. It should get an input vector and return its standardized vector(see the following image)(score: 10/100)
+![image](https://quicklatex.com/cache3/4d/ql_8de854af587962ecac6bc6bc6c04f24d_l3.svg)
+```{r}
+#Your Code starts here
+
+
+#Your code ends here
+```
+
+
+\newline
+  
+**Question 2** Import the file 'cars_clus.csv' and calculate the mean/average of its 'resales' column. (score: 10/100)
+```{r}
+#Your Code starts here
+
+
+#Your code ends here
+```
+
+
+
+**Question 3** In this question, you should create a dataframe in which you should have three columns. The first column is named as `Price-Med`, the second column, `Horsepow-Mean`, and the third column `Length-Std`. You should classify/group each type of Car (Say 'BMW'), then in the first column, you will show the median of each group's price. For the second column, do for their average/mean of their horsepower (for each group), and for the third column, you will show the standard deviation of each group. (As a test case: for BMW cars, the price median is '33.4') (You can use print(Name_of_your_dataframe) to show your results as well) (Remember that we don't want to use loops. (such as for loops)) (Score : 25/100)
+
+```{r}
+#Your Code starts here
+
+
+#Your code ends here
+```
+
+
+**Question 4** Suppose that someone wants to buy a car from those ones existing in the car_clus.csv, and its speed and acceleration is very crucial for him. If its metric would be choosing a car whose horsepower is between 300 and 400 (300 and 400 are included as well), you should create a dataframe to suggest him which cars suits him best. Also, note that, you just need to show him the three important columns, "manufact", "model" and "horsepow". (Score : 30/100)
+```{r}
+#Your Code starts here
+
+
+#Your code ends here
+```
+
+**Question 5** Add a column to the MAIN file (cars_clus), and name it as "Efficiency". For each car, if your car has high mpg (greater than or equal to 25), you should label it as 'High'. If its mpg is between 20(20 is also included) and 25, label it as "Medium". Otherwise, it should be labeled as "Low". Finally the you should JUST use "View" to show us your reult. (In fact, your result should the main dataset as well as the column "Efficiency")(Score : 25)
+
+```{r}
+#Your Code starts here
+
+
+#Your code ends here
+```
+
+
+
+
